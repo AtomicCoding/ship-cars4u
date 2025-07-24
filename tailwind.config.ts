@@ -24,8 +24,8 @@ export default {
           foreground: "hsl(var(--primary-foreground))",
         },
         shipcar: {
-          blue: "#00A1EF",
-          dark: "#082A48",
+          blue: "#DC2626",
+          dark: "#000000",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
