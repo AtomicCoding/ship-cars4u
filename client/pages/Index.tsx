@@ -43,7 +43,7 @@ export default function Index() {
                 Ship your car with confidence. Over 1 million vehicles transported safely with our network of certified carriers.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-shipcar-blue hover:bg-shipcar-blue/90 text-white text-lg px-8 py-3">
+                <Button size="lg" onClick={scrollToTop} className="bg-shipcar-blue hover:bg-shipcar-blue/90 text-white text-lg px-8 py-3">
                   Get Instant Quote
                 </Button>
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-shipcar-dark text-lg px-8 py-3">
