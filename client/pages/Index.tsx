@@ -7,6 +7,10 @@ import ShipCars4ULogo from "@/components/ShipCars4ULogo";
 import { Truck, Shield, Clock, Star, CheckCircle, Phone, Mail, MapPin } from "lucide-react";
 
 export default function Index() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
