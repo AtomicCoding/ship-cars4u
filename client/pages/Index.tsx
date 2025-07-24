@@ -3,7 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import MontwayLogo from "@/components/MontrayLogo";
+import MontwayLogo from "@/components/MontwayLogo";
 import { Truck, Shield, Clock, Star, CheckCircle, Phone, Mail, MapPin } from "lucide-react";
 
 export default function Index() {
