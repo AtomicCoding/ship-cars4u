@@ -46,7 +46,7 @@ export default function Index() {
                 <Button size="lg" onClick={scrollToTop} className="bg-shipcar-blue hover:bg-shipcar-blue/90 text-white text-lg px-8 py-3">
                   Get Instant Quote
                 </Button>
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-shipcar-dark text-lg px-8 py-3">
+                <Button size="lg" onClick={scrollToTop} variant="outline" className="border-white text-white hover:bg-white hover:text-shipcar-dark text-lg px-8 py-3">
                   Learn More
                 </Button>
               </div>
