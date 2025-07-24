@@ -23,7 +23,7 @@ export default {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
         },
-        montway: {
+        shipcar: {
           blue: "#00A1EF",
           dark: "#082A48",
         },
