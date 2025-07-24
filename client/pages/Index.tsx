@@ -111,7 +111,7 @@ export default function Index() {
                   <Input id="model" placeholder="Camry, F-150, etc." />
                 </div>
                 
-                <Button className="w-full bg-shipcar-blue hover:bg-shipcar-blue/90 text-white text-lg py-3">
+                <Button onClick={scrollToTop} className="w-full bg-shipcar-blue hover:bg-shipcar-blue/90 text-white text-lg py-3">
                   Get Free Quote
                 </Button>
               </CardContent>
