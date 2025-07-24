@@ -312,6 +312,88 @@ export default function Index() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section id="about" className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-shipcar-dark mb-4">About ShipCars4U</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Leading the auto transport industry with reliable, secure, and affordable vehicle shipping solutions nationwide.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6">
+              <h3 className="text-2xl font-bold text-shipcar-dark">Our Mission</h3>
+              <p className="text-gray-600 leading-relaxed">
+                At ShipCars4U, we're committed to making auto transport simple, secure, and stress-free. With over a decade of experience
+                in the industry, we've built a network of licensed and insured carriers who share our commitment to excellence.
+              </p>
+              <p className="text-gray-600 leading-relaxed">
+                Whether you're relocating for work, buying a car online, or need to ship a vehicle for any reason, we provide
+                transparent pricing, reliable service, and peace of mind throughout the entire process.
+              </p>
+
+              <div className="grid md:grid-cols-2 gap-6 mt-8">
+                <div className="text-center p-6 bg-gray-50 rounded-lg">
+                  <div className="text-3xl font-bold text-shipcar-blue mb-2">1M+</div>
+                  <div className="text-sm text-gray-600">Vehicles Shipped</div>
+                </div>
+                <div className="text-center p-6 bg-gray-50 rounded-lg">
+                  <div className="text-3xl font-bold text-shipcar-blue mb-2">10+</div>
+                  <div className="text-sm text-gray-600">Years Experience</div>
+                </div>
+                <div className="text-center p-6 bg-gray-50 rounded-lg">
+                  <div className="text-3xl font-bold text-shipcar-blue mb-2">4.9</div>
+                  <div className="text-sm text-gray-600">Average Rating</div>
+                </div>
+                <div className="text-center p-6 bg-gray-50 rounded-lg">
+                  <div className="text-3xl font-bold text-shipcar-blue mb-2">24/7</div>
+                  <div className="text-sm text-gray-600">Customer Support</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-6">
+              <h3 className="text-2xl font-bold text-shipcar-dark">Why Choose Us?</h3>
+              <div className="space-y-4">
+                <div className="flex items-start gap-4">
+                  <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold text-shipcar-dark mb-1">Licensed & Insured</h4>
+                    <p className="text-gray-600">All our carriers are properly licensed, bonded, and insured for your protection.</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold text-shipcar-dark mb-1">Transparent Pricing</h4>
+                    <p className="text-gray-600">No hidden fees or surprise charges. What you see is what you pay.</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold text-shipcar-dark mb-1">Real-Time Tracking</h4>
+                    <p className="text-gray-600">Stay informed with updates throughout your vehicle's journey.</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold text-shipcar-dark mb-1">Nationwide Coverage</h4>
+                    <p className="text-gray-600">We ship to all 50 states with reliable pickup and delivery services.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-shipcar-dark text-white">
         <div className="container mx-auto px-4 text-center">
